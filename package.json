@@ -1,0 +1,19 @@
+{
+  "name": "vash-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server/main.js",
+  "scripts": {
+    "start": "node src/server/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.4",
+    "uuid": "^8.3.2",
+    "vash": "^0.13.0"
+  }
+}

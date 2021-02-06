@@ -1,0 +1,17 @@
+@html.extend('_common/_layout', function (model) {
+  @html.append('content', function (model) {
+    <pre class="weather"></pre>
+  })
+  @html.append('scripts', function () {
+    <script>
+      $.ajax({
+        url: '/api/weather',
+        method: 'GET',
+        success: function (result) {
+          $('.weather').text(JSON.stringify(result, null, 2));
+          console.log(result);
+        }
+      })
+    </script>
+  });
+})

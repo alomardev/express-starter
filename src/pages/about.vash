@@ -1,0 +1,8 @@
+@html.extend('_common/_layout', function (model) {
+  @html.append('content', function (model) {
+    <pre>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ad saepe
+dolorum distinctio consectetur. Blanditiis reprehenderit error quasi et
+minima nemo cum, dolorum temporibus. Commodi quam veniam voluptate.
+Cupiditate, laboriosam.</pre>
+  })
+})
